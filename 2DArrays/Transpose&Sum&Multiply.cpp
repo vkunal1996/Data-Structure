@@ -164,6 +164,7 @@ void TransposeOfMatrix()
 					}
 					cout<<endl;
 				}
+	delete(array1);
 
 }
 int main()
