@@ -2,10 +2,10 @@
  
  public static int [] bubble_sort_recursive(int arr[],int ol,int il){
 
-        if(ol==arr.length-2){
+        if(ol>arr.length-2){
             return arr;
         }
-        if(il==arr.length-1){
+        if(il>arr.length-1){
             ol+=1;
             il=ol+1;
             return bubble_sort_recursive(arr, ol, il);
